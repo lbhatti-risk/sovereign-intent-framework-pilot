@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  sif-pilot:
+    build: .
+    volumes:
+      - ./evidence:/app/evidence
+      - ./reports:/app/reports
+    environment:
+      - PYTHONUNBUFFERED=1
