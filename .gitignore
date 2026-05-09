@@ -218,3 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 evidence/
 reports/
+
+# Sample outputs committed to the repo for reference
+!sample_output/
