@@ -58,6 +58,16 @@ python3 -m pytest tests/test_suite.py -v
 | `src/audit_trail.py` | Structured JSON audit log writer |
 | `src/run_pilot.py` | Pilot entry point and report generator |
 | `tests/test_suite.py` | Ten independent unit tests |
+| `sample_output/` | Reference audit log and pilot report from a real run |
+
+## Sample Output
+
+The `sample_output/` directory contains reference output from a complete pilot run, so you can inspect expected results without running Docker.
+
+| File | Description |
+|------|-------------|
+| `sample_output/sample_audit_log.jsonl` | Structured JSON audit log with one entry per Gateway decision across all ten test scenarios |
+| `sample_output/sample_pilot_report.md` | Human-readable pilot report summarising pass/fail outcomes, decision breakdown, and audit trace completeness |
 
 ## Background
 
